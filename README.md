@@ -8,4 +8,4 @@
 
 ---
 
-이 패키지는 [nvbn/thefunk](https://github.com/nvbn/thefuck) 을 보고 만들었습니다.
+이 패키지는 [nvbn/thefuck](https://github.com/nvbn/thefuck) 을 보고 만들었습니다.

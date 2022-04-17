@@ -8,4 +8,4 @@
 
 ---
 
-this package made by looking at the [nvbn/thefunk](https://github.com/nvbn/thefuck).
+this package made by looking at the [nvbn/thefuck](https://github.com/nvbn/thefuck).
