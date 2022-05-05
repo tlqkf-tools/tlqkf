@@ -1,7 +1,5 @@
 pub const KOREAN_HELP_MESSAGE: &str = "
-사용법: 시발 [-v] [-h] [-r] [-y]
-             [--version] [--help] [--repeat] [--yes]
-             [qjwjs] [ehdna] [..] [;;] [rkwmdk!]
+사용법: 시발 [qjwjs] [ehdna] [..] [;;] [rkwmdk!]
 
 커맨드:
   qjwjs (버전)
