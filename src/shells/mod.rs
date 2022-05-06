@@ -1,7 +1,21 @@
 use sysinfo::{ProcessExt, System, SystemExt};
 
 pub fn shell() -> String {
-    return get_shell_from_proc();
+    let env_shell = get_shell_from_env();
+
+    if env_shell == "" {
+        return get_shell_from_proc();
+    }
+
+    return env_shell;
+}
+
+fn get_shell_from_env() -> String {
+    let shell = std::env::var("TLQKF_SHELL");
+    if shell.is_ok() {
+        return String::from(shell.unwrap());
+    }
+    return String::from("");
 }
 
 fn get_shell_from_proc() -> String {
